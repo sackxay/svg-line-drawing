@@ -2,10 +2,42 @@ html {
   font-family: "Unica One", sans-serif;
 }
 
+#narwhal-text {
+  opacity: 0;
+  animation: eye-fade 2s 1s forwards;
+}
+
+#narwhal-body {
+  animation: body-draw 1s .6s linear forwards;
+  stroke-dasharray: 1981.415px;
+  stroke-dashoffset: 1981.415px;
+}
+
+@keyframes body-draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+#narwhal-eye {
+  opacity: 0;
+  animation: eye-fade 2s 1s forwards;
+}
+
+@keyframes eye-fade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 100;
+  }
+}
+
 #rainbow-red {
   animation: rainbow-move 1s .6s linear forwards;
-  stroke-dasharray: 17.2645in;
-  stroke-dashoffset: 17.2645in;
+  stroke-dasharray: 1243.044px;
+  stroke-dashoffset: 1243.044px;
 }
 
 @keyframes rainbow-move {
