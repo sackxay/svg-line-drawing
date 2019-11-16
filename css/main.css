@@ -3,7 +3,7 @@ html {
 }
 
 .narwhal-text {
-  left: .80em;
+  left: .8em;
   top: 20%;
   z-index: 1000;
   color: #fff;
@@ -12,6 +12,7 @@ html {
 }
 
 @keyframes text-fade {
+
   0% {
     opacity: 0;
   }
@@ -29,6 +30,7 @@ html {
 }
 
 @keyframes body-draw {
+
   to {
     stroke-dashoffset: 0;
   }
@@ -41,6 +43,7 @@ html {
 }
 
 @keyframes eye-fade {
+
   0% {
     opacity: 0;
   }
@@ -94,6 +97,7 @@ html {
 }
 
 @keyframes rainbow-move {
+
   to {
     stroke-dashoffset: 0;
   }
