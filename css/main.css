@@ -2,10 +2,13 @@ html {
   font-family: "Unica One", sans-serif;
 }
 
-#narwhal-text {
+.narwhal-text {
+  left: .80em;
+  top: 20%;
+  z-index: 1000;
   color: #fff;
   opacity: 0;
-  animation: text-fade ease 2s forwards;
+  animation: text-fade 2s 1s forwards;
 }
 
 @keyframes text-fade {
