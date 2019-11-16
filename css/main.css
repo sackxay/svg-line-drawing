@@ -3,8 +3,20 @@ html {
 }
 
 #narwhal-text {
+  color: #fff;
   opacity: 0;
-  animation: eye-fade 2s 1s forwards;
+  animation: text-fade ease 2s forwards;
+}
+
+@keyframes text-fade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 100;
+  }
+
 }
 
 #narwhal-body {
@@ -17,6 +29,7 @@ html {
   to {
     stroke-dashoffset: 0;
   }
+
 }
 
 #narwhal-eye {
@@ -32,6 +45,43 @@ html {
   100% {
     opacity: 100;
   }
+
+}
+
+#rainbow-violet {
+  animation: rainbow-move 1s .6s linear forwards;
+  stroke-dasharray: 1917.692px;
+  stroke-dashoffset: 1917.692px;
+}
+
+#rainbow-indigo {
+  animation: rainbow-move 1s .6s linear forwards;
+  stroke-dasharray: 1812.502px;
+  stroke-dashoffset: 1812.502px;
+}
+
+#rainbow-blue {
+  animation: rainbow-move 1s .6s linear forwards;
+  stroke-dasharray: 1705.479px;
+  stroke-dashoffset: 1705.479px;
+}
+
+#rainbow-green {
+  animation: rainbow-move 1s .6s linear forwards;
+  stroke-dasharray: 1596.043px;
+  stroke-dashoffset: 1596.043px;
+}
+
+#rainbow-yellow {
+  animation: rainbow-move 1s .6s linear forwards;
+  stroke-dasharray: 1483.352px;
+  stroke-dashoffset: 1483.352px;
+}
+
+#rainbow-orange {
+  animation: rainbow-move 1s .6s linear forwards;
+  stroke-dasharray: 1366.26px;
+  stroke-dashoffset: 1366.26px;
 }
 
 #rainbow-red {
