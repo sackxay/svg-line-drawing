@@ -1,0 +1,16 @@
+html {
+  font-family: "Unica One", sans-serif;
+}
+
+#rainbow-red {
+  animation: rainbow-move 1s .6s linear forwards;
+  stroke-dasharray: 17.2645in;
+  stroke-dashoffset: 17.2645in;
+}
+
+@keyframes rainbow-move {
+  to {
+    stroke-dashoffset: 0;
+  }
+
+}
